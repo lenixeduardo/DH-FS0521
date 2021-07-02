@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    color: #777;
+    font-family: 'Ropa Sans', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.cabecalho {
+    align-items: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header-left {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    width: 280px;
+}
+
+.header-left h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-left span {
+    width: 70px;
+}
+
+.header-menu {
+    margin-right: 80px;
+}
+
+.carrossel {
+    align-items: center;
+    background-image: url(../img/Rectangle3.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 50px 100px;
+    padding: 0 50px;
+}
+
+.arrow {
+    background-color: #8D8D8D;
+    border-radius: 50%;
+    opacity: 0.7;
+    padding: 35px 50px;
+}
+
+.arrow img {
+    width: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 100px 50px 100px;
+}
+
+.card-container {
+    display: flex;
+    background-color: #EEEEEE;
+    flex-direction: column;
+    height: 660px;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 15px;
+    text-align: justify;
+}
+
+.text-card-title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-card-title span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-card-title a {
+    color: white;
+    border-radius: 40px;
+    font-size: 40px;
+    padding: 10px 50px;
+}
+
+.card-left a{
+    background-color: #51D275;
+}
+
+.card-right a {
+    background-color: #DC9730;
+}
+
+.text-card p {
+    color: #555555;
+    margin: 20px 0;
+}
